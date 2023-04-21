@@ -76,3 +76,22 @@ span {
   justify-content: center;
   align-items: center;
 }
+
+.car-report .car-history-title h4 {
+  color: rgb(0, 0, 0);
+}
+.car-report li {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin: 20px 0;
+}
+.car-report li span {
+  padding: 0 10px;
+}
+.car-report .context {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

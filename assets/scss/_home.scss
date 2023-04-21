@@ -55,3 +55,27 @@
     align-items: center;
   }
 }
+
+.car-report {
+  .car-history-title {
+    h4 {
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+
+  li {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0;
+    span {
+      padding: 0 10px;
+    }
+  }
+  .context {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
