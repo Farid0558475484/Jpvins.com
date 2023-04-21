@@ -2,15 +2,15 @@
   margin: 0;
   padding: 0;
 }
-.row > * {
-  padding-right: calc(var(--bs-gutter-x) * 0);
-  padding-left: calc(var(--bs-gutter-x) * 0);
-  --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
+.row {
+  padding-right: calc(var(--bs-gutter-x) * 0) ;
+  padding-left: calc(var(--bs-gutter-x) * 0) ;
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
 }
 .container-fluid {
-  padding-right: var(--bs-gutter-x, 0rem) !important;
-  padding-left: var(--bs-gutter-x, 0rem) !important;
+  padding-right: var(--bs-gutter-x, 0rem) ;
+  padding-left: var(--bs-gutter-x, 0rem) ;
 }
 h1,
 h2,
@@ -27,4 +27,3 @@ span {
   padding: 0;
 }
 @import "./home.scss";
-

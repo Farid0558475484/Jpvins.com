@@ -93,9 +93,6 @@
     }
   }
 }
-////
-///
-///
 
 .card-body1 {
   overflow: hidden;
@@ -231,3 +228,10 @@
 .img-fluid {
   height: 100% !important;
 }
+
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+
+}
+
