@@ -235,3 +235,38 @@ span {
   display: flex;
   justify-content: space-between;
 }
+
+.notCar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notCarTitle {
+  text-align: center;
+}
+
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeOut 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}

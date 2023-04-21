@@ -232,6 +232,14 @@
 .footerInfo {
   display: flex;
   justify-content: space-between;
-
 }
 
+.notCar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notCarTitle {
+  text-align: center;
+}
