@@ -14,3 +14,65 @@
   padding-right: var(--bs-gutter-x, 0rem) !important;
   padding-left: var(--bs-gutter-x, 0rem) !important;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.info-section .info-context {
+  padding: 20px 0 10px 10px;
+  margin: 0 20px;
+  box-shadow: 0px 10px 30px 0px rgba(17, 38, 146, 0.147);
+  height: 100%;
+  border-radius: 15px;
+}
+.info-section .info-context h5 {
+  font-size: 19px;
+  font-weight: 500;
+  color: rgb(35, 45, 66);
+  text-align: center;
+  line-height: 3;
+}
+.info-section .info-context p {
+  color: rgb(138, 146, 166);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .info-section .info-context {
+    margin: 30px 20px;
+    box-shadow: 0px 10px 30px 0px rgba(17, 38, 146, 0.085);
+  }
+  .info-section .info-context h5 {
+    line-height: 3;
+  }
+}
+.car-history-info .car-history-title h4 {
+  color: rgb(0, 0, 0);
+}
+.car-history-info li {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin: 20px 0;
+}
+.car-history-info li span {
+  padding: 0 10px;
+}
+.car-history-info .context {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
