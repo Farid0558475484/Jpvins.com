@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
 .row > * {
   padding-right: calc(var(--bs-gutter-x) * 0);
   padding-left: calc(var(--bs-gutter-x) * 0);
   --bs-gutter-x: 0;
   --bs-gutter-y: 0;
 }
+
 .container-fluid {
   padding-right: var(--bs-gutter-x, 0rem) !important;
   padding-left: var(--bs-gutter-x, 0rem) !important;
 }
-@import "./home.scss";
