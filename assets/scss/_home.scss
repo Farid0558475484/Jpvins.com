@@ -243,3 +243,17 @@
 .notCarTitle {
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+}
+///burger menu
+///
+///
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}

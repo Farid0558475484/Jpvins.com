@@ -246,6 +246,16 @@ span {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
 #logo {
   position: fixed;
   top: 0;

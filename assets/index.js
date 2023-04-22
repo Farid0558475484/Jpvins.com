@@ -3,3 +3,4 @@ window.addEventListener("load", function () {
     document.querySelector("#logo").style.display = "none";
   }, 2600);
 });
+
